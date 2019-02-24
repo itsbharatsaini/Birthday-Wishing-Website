@@ -1,0 +1,1225 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
+body {
+	/*background-color: #FFDAB9;	*/
+	background-color: #000;
+	-webkit-transition:background-color linear 5s;
+	-moz-transition:background-color linear 5s;
+	-o-transition:background-color linear 5s;
+	-ms-transition:background-color linear 5s;
+	transition:background-color linear 5s;
+	overflow-x:hidden;
+}
+.background{
+	display: none;
+}
+#display_hey {
+	display: none;
+    margin-top: -30%;
+    margin-bottom: 0px;
+}
+
+#display_hey h1 {
+
+  text-align: center;
+font: 800 7.9em "Lato";
+}
+
+#display_hey h1 strong {
+	padding-top: 10px;
+	font: 300 1.5em "Lato";
+	color: #ea4c4c;
+}
+#name {
+	display: none;
+	text-align: center;
+ 	margin-top: 90%;
+}
+#name h1 strong {
+	padding-top: 10px;
+	font: 600 3.5em "Lato";
+	color: #ea4c4c;mix-blend-mode: 
+}
+.message {
+	position: relative;
+	text-align: center;
+	margin-top: -30%;
+	display: none;
+   
+}
+.message p {
+	color: red;
+
+	display: none;
+	font-weight: bold;
+	background-attachment: fixed;
+    font: 400 8em "Lato";
+}
+#last_msg {
+	display: none;
+	text-align: center;
+ 	margin-top: 0%;
+}
+#last_msg h1 strong {
+	padding-top: 10px;
+	font: 600 3.5em "Lato";
+	color: #e91e63;
+}
+
+
+.container {
+	display: none;
+}
+.peach {
+	background-color: black;
+	
+}
+.peach-after {
+	-webkit-animation:peach_alive linear 8s infinite;
+	-moz-animation:peach_alive linear 8s infinite;
+	-o-animation:peach_alive linear 8s infinite;
+	-ms-animation:peach_alive linear 8s infinite;
+	animation:peach_alive linear 8s infinite;
+}
+
+@-webkit-keyframes peach_alive {
+	0%{
+		background-color: black;
+	}
+	25%{
+		background-color: white;
+	}
+	50%{
+		background-color: black;
+	}
+	75%{
+		background-color: gray;
+	}
+	100%{
+		background-color: black;
+	}
+}
+@-moz-keyframes peach_alive {
+	0%{
+		background-color: black;
+	}
+	25%{
+		background-color: white;
+	}
+	50%{
+		background-color: black;
+	}
+	75%{
+		background-color: gray;
+	}
+	100%{
+		background-color: black;
+	}
+}
+
+@-o-keyframes peach_alive {
+	0%{
+		background-color: black;
+	}
+	25%{
+		background-color: white;
+	}
+	50%{
+		background-color: black;
+	}
+	75%{
+		background-color: gray;
+	}
+	100%{
+		background-color: black;
+	}
+}
+
+@-ms-keyframes peach_alive {
+	0%{
+		background-color: black;
+	}
+	25%{
+		background-color: white;
+	}
+	50%{
+		background-color: black;
+	}
+	75%{
+		background-color: gray;
+	}
+	100%{
+		background-color: black;
+	}
+}
+
+@keyframes peach_alive {
+	0%{
+		background-color: black;
+	}
+	25%{
+		background-color: aliceblue;
+	}
+	50%{
+		background-color: black;
+	}
+	75%{
+		background-color: aliceblue;
+	}
+	100%{
+		background-color: black;
+	}
+}
+
+
+.bulb {
+    width: 100px;
+    height: 200px;
+    margin: auto;
+    background-repeat: no-repeat no-repeat;
+    background-position: center 0px;
+    background-size: 134% 70%;
+}
+
+.bulb-holder {
+	height: 70px;
+}
+
+.bulb-glow-yellow {
+	background-image: url('bulb_yellow.png');
+	-webkit-animation: bulb_glow_yellow linear 5s;
+	-moz-animation: bulb_glow_yellow linear 5s;
+	-o-animation: bulb_glow_yellow linear 5s;
+	-ms-animation: bulb_glow_yellow linear 5s;
+	animation: bulb_glow_yellow linear 5s;
+}
+
+@-webkit-keyframes bulb_glow_yellow {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_yellow.png');
+		opacity: 1;
+	}
+}
+@-moz-keyframes bulb_glow_yellow {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_yellow.png');
+		opacity: 1;
+	}
+}
+@-o-keyframes bulb_glow_yellow {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_yellow.png');
+		opacity: 1;
+	}
+}
+@-ms-keyframes bulb_glow_yellow {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_yellow.png');
+		opacity: 1;
+	}
+}
+@keyframes bulb_glow_yellow {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_yellow.png');
+		opacity: 1;
+	}
+}
+
+.bulb-glow-red {
+	background-image: url('bulb_red.png');
+	-webkit-animation: bulb_glow_red linear 5s;
+	-moz-animation: bulb_glow_red linear 5s;
+	-o-animation: bulb_glow_red linear 5s;
+	-ms-animation: bulb_glow_red linear 5s;
+	animation: bulb_glow_red linear 5s;
+}
+
+@-webkit-keyframes bulb_glow_red {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_red.png');
+		opacity: 1;
+	}
+}
+@-moz-keyframes bulb_glow_red {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_red.png');
+		opacity: 1;
+	}
+}
+@-o-keyframes bulb_glow_red {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_red.png');
+		opacity: 1;
+	}
+}
+@-ms-keyframes bulb_glow_red {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_red.png');
+		opacity: 1;
+	}
+}
+@keyframes bulb_glow_red {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_red.png');
+		opacity: 1;
+	}
+}
+.bulb-glow-blue {
+	background-image: url('bulb_blue.png');
+	-webkit-animation: bulb_glow_blue linear 5s;
+	-moz-animation: bulb_glow_blue linear 5s;
+	-o-animation: bulb_glow_blue linear 5s;
+	-ms-animation: bulb_glow_blue linear 5s;
+	animation: bulb_glow_blue linear 5s;
+}
+
+@-webkit-keyframes bulb_glow_blue {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_blue.png');
+		opacity: 1;
+	}
+}
+@-moz-keyframes bulb_glow_blue {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_blue.png');
+		opacity: 1;
+	}
+}
+@-o-keyframes bulb_glow_blue {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_blue.png');
+		opacity: 1;
+	}
+}
+@-ms-keyframes bulb_glow_blue {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_blue.png');
+		opacity: 1;
+	}
+}
+@keyframes bulb_glow_blue {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_blue.png');
+		opacity: 1;
+	}
+}
+
+.bulb-glow-green {
+	background-image: url('bulb_green.png');
+	-webkit-animation: bulb_glow_green linear 5s;
+	-moz-animation: bulb_glow_green linear 5s;
+	-o-animation: bulb_glow_green linear 5s;
+	-ms-animation: bulb_glow_green linear 5s;
+	animation: bulb_glow_green linear 5s;
+}
+
+@-webkit-keyframes bulb_glow_green {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_green.png');
+		opacity: 1;
+	}
+}
+@-moz-keyframes bulb_glow_green {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_green.png');
+		opacity: 1;
+	}
+}
+@-o-keyframes bulb_glow_green {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_green.png');
+		opacity: 1;
+	}
+}
+@-ms-keyframes bulb_glow_green {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_green.png');
+		opacity: 1;
+	}
+}
+@keyframes bulb_glow_green {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_green.png');
+		opacity: 1;
+	}
+}
+
+.bulb-glow-pink {
+	background-image: url('bulb_pink.png');
+	-webkit-animation: bulb_glow_pink linear 5s;
+	-moz-animation: bulb_glow_pink linear 5s;
+	-o-animation: bulb_glow_pink linear 5s;
+	-ms-animation: bulb_glow_pink linear 5s;
+	animation: bulb_glow_pink linear 5s;
+}
+
+@-webkit-keyframes bulb_glow_pink {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_pink.png');
+		opacity: 1;
+	}
+}
+@-moz-keyframes bulb_glow_pink {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_pink.png');
+		opacity: 1;
+	}
+}
+@-o-keyframes bulb_glow_pink {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_pink.png');
+		opacity: 1;
+	}
+}
+@-ms-keyframes bulb_glow_pink {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_pink.png');
+		opacity: 1;
+	}
+}
+@keyframes bulb_glow_pink {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_pink.png');
+		opacity: 1;
+	}
+}
+
+.bulb-glow-orange {
+	background-image: url('bulb_orange.png');
+	-webkit-animation: bulb_glow_orange linear 5s;
+	-moz-animation: bulb_glow_orange linear 5s;
+	-o-animation: bulb_glow_orange linear 5s;
+	-ms-animation: bulb_glow_orange linear 5s;
+	animation: bulb_glow_orange linear 5s;
+}
+
+@-webkit-keyframes bulb_glow_orange {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_orange.png');
+		opacity: 1;
+	}
+}
+@-moz-keyframes bulb_glow_orange {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_orange.png');
+		opacity: 1;
+	}
+}
+@-o-keyframes bulb_glow_orange {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_orange.png');
+		opacity: 1;
+	}
+}
+@-ms-keyframes bulb_glow_orange {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_orange.png');
+		opacity: 1;
+	}
+}
+@keyframes bulb_glow_orange {
+	0%{
+		background-image: url('bulb.png');
+		opacity: 0;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		background-image: url('bulb_orange.png');
+		opacity: 1;
+	}
+}
+
+
+/*after music*/
+.bulb-glow-yellow-after {
+	background-image: url('bulb_yellow.png');
+	-webkit-animation: bulb_glow_yellow_after linear 1s infinite;
+	-moz-animation: bulb_glow_yellow_after linear 1s infinite;
+	-o-animation: bulb_glow_yellow_after linear 1s infinite;
+	-ms-animation: bulb_glow_yellow_after linear 1s infinite;
+	animation: bulb_glow_yellow_after linear 1s infinite;
+}
+
+@-webkit-keyframes bulb_glow_yellow_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_yellow.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-moz-keyframes bulb_glow_yellow_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_yellow.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-o-keyframes bulb_glow_yellow_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_yellow.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-ms-keyframes bulb_glow_yellow_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_yellow.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@keyframes bulb_glow_yellow_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_yellow.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+
+.bulb-glow-red-after {
+	background-image: url('bulb_red.png');
+	-webkit-animation: bulb_glow_red_after linear 1.2s infinite;
+	-moz-animation: bulb_glow_red_after linear 1.2s infinite;
+	-o-animation: bulb_glow_red_after linear 1.2s infinite;
+	-ms-animation: bulb_glow_red_after linear 1.2s infinite;
+	animation: bulb_glow_red_after linear 1.2s infinite;
+}
+
+@-webkit-keyframes bulb_glow_red_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_red.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-moz-keyframes bulb_glow_red_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_red.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-o-keyframes bulb_glow_red_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_red.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-ms-keyframes bulb_glow_red_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_red.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@keyframes bulb_glow_red_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_red.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+
+.bulb-glow-blue-after {
+	background-image: url('bulb_blue.png');
+	-webkit-animation: bulb_glow_blue_after linear 1.4s infinite;
+	-moz-animation: bulb_glow_blue_after linear 1.4s infinite;
+	-o-animation: bulb_glow_blue_after linear 1.4s infinite;
+	-ms-animation: bulb_glow_blue_after linear 1.4s infinite;
+	animation: bulb_glow_blue_after linear 1.4s infinite;
+}
+
+@-webkit-keyframes bulb_glow_blue_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_blue.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-moz-keyframes bulb_glow_blue_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_blue.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-o-keyframes bulb_glow_blue_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_blue.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-ms-keyframes bulb_glow_blue_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_blue.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@keyframes bulb_glow_blue_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_blue.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+.bulb-glow-green-after {
+	background-image: url('bulb_green.png');
+	-webkit-animation: bulb_glow_green_after linear 1.8s infinite;
+	-moz-animation: bulb_glow_green_after linear 1.8s infinite;
+	-o-animation: bulb_glow_green_after linear 1.8s infinite;
+	-ms-animation: bulb_glow_green_after linear 1.8s infinite;
+	animation: bulb_glow_green_after linear 1.8s infinite;
+}
+
+@-webkit-keyframes bulb_glow_green_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_green.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+
+@-moz-keyframes bulb_glow_green_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_green.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-o-keyframes bulb_glow_green_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_green.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-ms-keyframes bulb_glow_green_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_green.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@keyframes bulb_glow_green_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_green.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+.bulb-glow-pink-after {
+	background-image: url('bulb_pink.png');
+	-webkit-animation: bulb_glow_pink_after linear 2s infinite;
+	-moz-animation: bulb_glow_pink_after linear 2s infinite;
+	-o-animation: bulb_glow_pink_after linear 2s infinite;
+	-ms-animation: bulb_glow_pink_after linear 2s infinite;
+	animation: bulb_glow_pink_after linear 2s infinite;
+}
+
+@-webkit-keyframes bulb_glow_pink_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_pink.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-moz-keyframes bulb_glow_pink_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_pink.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-o-keyframes bulb_glow_pink_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_pink.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-ms-keyframes bulb_glow_pink_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_pink.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@keyframes bulb_glow_pink_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_pink.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+.bulb-glow-orange-after {
+	background-image: url('bulb_orange.png');
+	-webkit-animation: bulb_glow_orange_after linear 2.2s infinite;
+	-moz-animation: bulb_glow_orange_after linear 2.2s infinite;
+	-o-animation: bulb_glow_orange_after linear 2.2s infinite;
+	-ms-animation: bulb_glow_orange_after linear 2.2s infinite;
+	animation: bulb_glow_orange_after linear 2.2s infinite;
+}
+
+@-webkit-keyframes bulb_glow_orange_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_orange.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-moz-keyframes bulb_glow_orange_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_orange.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-o-keyframes bulb_glow_orange_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_orange.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@-ms-keyframes bulb_glow_orange_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_orange.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+@keyframes bulb_glow_orange_after {
+	0%{
+		background-image: url('bulb.png');
+	}
+	50%{
+		background-image: url('bulb_orange.png');
+	}
+	100%{
+		background-image: url('bulb.png');
+	}
+}
+audio {
+	display: none;
+}
+
+
+
+.bannar {
+	width: 80%;
+	-webkit-transform:translate(0px,-500px);
+	-moz-transform:translate(0px,-500px);
+	-o-transform:translate(0px,-500px);
+	-ms-transform:translate(0px,-500px);
+	transform:translate(0px,-500px);
+
+}
+
+.bannar-come {
+	-webkit-animation: bannar_come linear 6s;
+	-webkit-transform:translate(0px,0px);
+	-moz-animation: bannar_come linear 6s;
+	-moz-transform:translate(0px,0px);
+	-o-animation: bannar_come linear 6s;
+	-o-transform:translate(0px,0px);
+	-ms-animation: bannar_come linear 6s;
+	-ms-transform:translate(0px,0px);
+	animation: bannar_come linear 6s;
+	transform:translate(0px,400px);
+}
+@-webkit-keyframes bannar_come {
+	0%{
+		-webkit-transform:translate(0px,-1000px);
+	}
+	33%{
+		-webkit-transform:translate(0px,0px);
+		-webkit-transform:rotate(10deg);
+		/*-webkit-transform:scale(1.5);*/
+	}
+	66% {
+		-webkit-transform:translate(0px,100px);
+		-webkit-transform:rotate(-10deg);
+	}
+	100% {
+		-webkit-transform:translate(0px,0px);
+	}
+}
+@-moz-keyframes bannar_come {
+	0%{
+		-moz-transform:translate(0px,-1000px);
+	}
+	33%{
+		-moz-transform:translate(0px,0px);
+		-moz-transform:rotate(10deg);
+		/*-webkit-transform:scale(1.5);*/
+	}
+	66% {
+		-moz-transform:translate(0px,100px);
+		-moz-transform:rotate(-10deg);
+	}
+	100% {
+		-moz-transform:translate(0px,0px);
+	}
+}
+@-o-keyframes bannar_come {
+	0%{
+		-o-transform:translate(0px,-1000px);
+	}
+	33%{
+		-o-transform:translate(0px,0px);
+		-o-transform:rotate(10deg);
+		/*-webkit-transform:scale(1.5);*/
+	}
+	66% {
+		-o-transform:translate(0px,100px);
+		-o-transform:rotate(-10deg);
+	}
+	100% {
+		-o-transform:translate(0px,0px);
+	}
+}
+
+@-ms-keyframes bannar_come {
+	0%{
+		-ms-transform:translate(0px,-1000px);
+	}
+	33%{
+		-ms-transform:translate(0px,0px);
+		-ms-transform:rotate(10deg);
+		/*-webkit-transform:scale(1.5);*/
+	}
+	66% {
+		-ms-transform:translate(0px,100px);
+		-ms-transform:rotate(-10deg);
+	}
+	100% {
+		-ms-transform:translate(0px,0px);
+	}
+}
+@keyframes bannar_come {
+	0%{
+		transform:translate(0px,-1000px);
+	}
+	20%{
+		transform:translate(0px,400px);
+		
+		/*-webkit-transform:scale(1.5);*/
+	}
+	40% {
+		transform:translate(0px,100px);
+		
+	}
+	60% {
+		transform:translate(0px,400px);
+	}
+	80%{
+		transform:translate(0px,100px);
+		
+		/*-webkit-transform:scale(1.5);*/
+	}
+	100% {
+		transform:translate(0px,400px);
+		
+	}
+
+}
+.design1{
+	top: 7%;
+	position: absolute;
+	display: none;
+}
+.design2{
+	margin-top: 3%;
+    right: -2%;
+    width: 25%;
+	position: absolute;
+	display: none;
+}
+.design3{
+	top: 7%;
+	position: absolute;
+	display: none;
+}
+.design4{
+	margin-top: 3%;
+    left: 1%;
+    width: 25%;
+	position: absolute;
+	display: none;
+}
+
+.balloon-border{
+	position: fixed;
+	top:100%;
+	right: 0px;
+	opacity: 0.5;
+	z-index: 9999;
+}
+
+.control-panel {
+	position: fixed;
+	bottom: 0;
+	padding:10px 0px 10px 0px;
+}
+#play,#bannar_coming,#balloons_flying,#cake_coming,#blow_candle,#wish_message,#story,#surprise{
+	display: none;
+}
+
+.cake-cover {
+	margin-top: 50px;
+}
+
+
+.btn-primary {
+        border-color: #ea3b47;
+        padding: 0px;
+        width: 480px;
+        height: 130px;
+        margin-bottom:60px;
+        font: 300 5em "Lato";
+ 
+        color: #ffffff;
+        background-color: #ea3b47;
+}
+    .btn-primary:hover,
+    .btn-primary:focus,
+    .btn-primary:active,
+    .btn-primary.active,
+    .open .dropdown-toggle.btn-primary {
+        border-color: #fff;
+        color: #fff;
+        background-color: #4972bd;
+    }
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+/*---------------------------------------*/
+
